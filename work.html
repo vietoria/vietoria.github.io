@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>vietoria</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="animate.css-master/animate.min.css">
+
+
+<script src="WOW-master/dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+
+<script src="scrollup-master/dist/lib/jquery-1.11.1.min.js"></script>
+<script src="scrollup-master/dist/jquery.scrollUp.min.js"></script>
+
+<script>
+    $(function () {
+    $.scrollUp({
+        scrollName: 'scrollUp',      // Element ID
+        scrollDistance: 1000,         // Distance from top/bottom before showing element (px)
+        scrollFrom: 'top',           // 'top' or 'bottom'
+        scrollSpeed: 300,            // Speed back to top (ms)
+        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+        animation: 'fade',           // Fade, slide, none
+        animationSpeed: 200,         // Animation speed (ms)
+        scrollTrigger: false,        // Set a custom triggering element. Can be an HTML string or jQuery object
+        scrollTarget: false,         // Set a custom target element for scrolling to. Can be element or number
+        scrollText: true,            // Text for element, can contain HTML
+        scrollTitle: false,          // Set a custom <a> title if required.
+        scrollImg: false,            // Set true to use image
+        activeOverlay: false,        // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        zIndex: 2147483647           // Z-Index for the overlay
+    });
+});
+</script>
+
+<style> 
+
+
+body, html, * {
+    padding: 0px;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #f2ead0;
+}
+
+a:hover {
+    color: rgb(216, 215, 212, 0);
+    transition-: 0.3s all ease-in-out; 
+    -webkit-transition: 0.3s all ease-in-out; 
+    -moz-transition: 0.3s all ease-in-out; 
+    -o-transition: 0.3s all ease-in-out; 
+    -ms-transition: 0.3s all ease-in-out;
+}
+
+b {
+    text-transform: uppercase;
+    color: #f2ead0;
+}
+
+.name {
+    color: #000;
+    font-family: 'Cormorant Garamond', serif; 
+    font-size:30px; 
+    letter-spacing:5px;
+    font-weight:700; 
+    text-transform:uppercase; 
+    text-align:left; 
+    padding: 30px;
+}
+
+.navbar{
+  background-color:none;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  z-index:40;
+  border-top: solid 1px #ddd;
+  padding-top:15px;
+}
+
+.menu{
+position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  z-index:40;
+}
+
+.nav{
+  display:inline-block;
+  float:right;
+  margin-right:50px;
+  -moz-transition: 3s, 1.5s;  
+  -webkit-transition: 3s, 1.5s;
+  background-color: transparent;
+}
+
+.nav a{
+    color: #f2ead0;
+    width: 500px; 
+    padding-top: 15px; 
+    font-family: 'Roboto', pt sans, lucida sans, arial, sans-serif; 
+    font-size: 12px; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    text-align: right; 
+    line-height: 120%; 
+    text-transform: uppercase;
+    background-color:transparent;
+}
+
+.nav a:hover{
+	background-color:transparent;
+	color: #d8d7d4;
+    transition-: 0.3s all ease-in-out; 
+    -webkit-transition: 0.3s all ease-in-out; 
+    -moz-transition: 0.3s all ease-in-out; 
+    -o-transition: 0.3s all ease-in-out; 
+    -ms-transition: 0.3s all ease-in-out;}
+
+#maingrid {
+	margin-top: 100px;
+}
+
+#maingrid img {
+	width: 200px;
+	height: 200px;
+}
+
+.RPLYname { width: 630px; color: #000; font-family: 'Cormorant Garamond', serif;  font-size:20px;  letter-spacing:5px; font-weight:700; text-transform:uppercase; text-align:left; margin-bottom: 15px; }
+
+.credit {
+    padding-top: 150px;
+    margin-bottom: 15px;
+    color: #f2ead0;
+    font-family: 'Roboto', pt sans, lucida sans, arial, sans-serif; 
+    font-size: 8px; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase;
+    background-color:transparent;
+}
+</style>
+    
+</head>
+<body>
+
+
+<center>
+
+<ul class="menu"><div class="name"><a href="https://vietoria.github.io/" style="color: #000;">vietoria</a></div>
+
+  <div class="navbar">
+  
+    <div class="nav">
+    <a href="https://vietoria.github.io/about">about</a>
+   </div>   
+ 
+   <div class="nav">
+    <a href="" download>resume</a>
+   </div>
+    
+  <div class="nav">
+    <a href="https://vietoria.github.io/work">work</a>
+   </div>
+      </div>
+  </ul>
+
+
+<div id="maingrid">
+
+<div class="RPLYname" style="border-bottom: solid 1px #ddd; padding-bottom: 15px;">photography</div>
+
+<table cellspacing="15">
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+</table>
+
+<div class="RPLYname" style="margin-top: 100px; border-bottom: solid 1px #ddd; padding-bottom: 15px;">design</div>
+
+<table cellspacing="15">
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+<tr><td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td> <td><a href=""><img src="http://i63.tinypic.com/2u9rcbq.png"></a></td></tr>
+
+</table>
+
+</div>
+
+<div class="credit">2019 © VIETORIA</div>
+
+</center>
+
+</body>
+</html>
