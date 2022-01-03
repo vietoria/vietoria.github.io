@@ -116,7 +116,7 @@ overflow: hidden;
   z-index: 999;
 }
 
-hometitle {
+hometitle, hometitle a {
   position: relative;
   z-index: 6;
   font-size: .8em;
@@ -203,6 +203,7 @@ hometitle {
   display: flex;
   align-items: top;
   justify-content: left;
+  margin-top: 60px;
 }
 
 .menu .portrait {
