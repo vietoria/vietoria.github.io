@@ -65,15 +65,15 @@ overflow: hidden;
   transition: all 0.9s ease;
 }
 
-.site:hover .site img {
+#landing:hover .site img {
   filter: blur(10px);
 }
 
-.site:hover .heaven {
+#landing:hover .heaven {
   opacity: 1;
 }
 
-.site:hover .subtitle {
+#landing:hover .subtitle {
   opacity: 0;
 }
 
