@@ -228,7 +228,7 @@ hometitle {
   width: 350px;
   background-image: url(https://images.unsplash.com/photo-1580196969854-101dc0dc7a4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=4001&q=80);
   background-size: 800%;
-  background-position: 100;
+  background-position: center left;
   z-index: 99;
 }
 
