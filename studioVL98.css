@@ -21,6 +21,15 @@ body {
   margin: 0px;
 }
 
+#tiger2 img {
+  position: fixed;
+  height: 55vh;
+  bottom: -30px;
+  right: 0px;
+  margin: 0px;
+  z-index: 999;
+}
+
 #landing {
   width: calc(100vw-50px);
   height: 100vh;
