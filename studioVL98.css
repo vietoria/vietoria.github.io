@@ -198,7 +198,7 @@ hometitle {
 
 .menu .portrait {
   width: 350px;
-  height: 150px;
+  height: 450px;
   background-size: cover;
   background-position: center top;
 }
@@ -206,11 +206,11 @@ hometitle {
 .menu .mcopy {
   position: relative;
   text-align: left;
-  font-size: .8em;
+  font-size: clamp(10px, 1.5vw, 25px);
   letter-spacing: 0.5px;
   line-height: 200%;
   text-decoration: none;
-  width: 370px;
+  width: 40%;
   margin: 0px 30px;
 }
 
