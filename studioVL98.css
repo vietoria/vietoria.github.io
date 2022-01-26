@@ -119,16 +119,18 @@ overflow: hidden;
 hometitle, hometitle a {
   position: relative;
   z-index: 6;
-  font-size: .8em;
+  font-size: 11px;
   letter-spacing: 10px;
   font-family: Times;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
+  margin-top: -20px;
   margin-left: 0px;
   width: auto;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navgif {
